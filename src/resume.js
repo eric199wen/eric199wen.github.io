@@ -57,7 +57,7 @@ const resume = {
       ]
     },
     {
-      "company": "Lumens Digital Optical Inc.",
+      "company": "Lumens Digital Optics Inc.",
       "position": "Firmware Engineer Intern",
       "startDate": "Apr 2015",
       "endDate": "Jul 2015",
