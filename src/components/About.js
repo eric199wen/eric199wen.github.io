@@ -15,12 +15,16 @@ export default class About extends Component {
       <section id="about">
         <div className="row">
           <div className="content-container">
-            <div className="col-md-2">
+            <div className="col-md-2 about-left-section">
               <img src={this.props.picture} alt="Wei-Yuan Wen"/>
+              <a href="https://drive.google.com/file/d/1T2npiYxRXZTu8ltm5hJBVRBVoS2KvE1A/view?usp=sharing" target="_blank">
+                <i className="fa fa-file-text" aria-hidden="true"></i>
+                Resume
+              </a>
             </div>
             <div className="col-md-10">
               <span>
-                <div className="section-subtitle">About Me</div>
+                <div className="section-subtitle">Wei-Yuan Wen</div>
               </span>
               {this.renderInfo()}
               <div className="section-subtitle">Contact</div>

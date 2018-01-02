@@ -22,6 +22,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 2.5px;
   color: #cecece;
+  text-decoration: none;
   -webkit-transition: color 0.3s ease-out;
   -moz-transition: color 0.3s ease-out;
   -o-transition: color 0.3s ease-out;
@@ -30,6 +31,7 @@ body {
 
 .navbar-item a:hover {
   color: #459987;
+  text-decoration: none;
   background-color: transparent;
 }
 
@@ -75,6 +77,10 @@ section, footer {
 #about img {
   border-radius: 50%;
   margin: 0 auto 20px auto;
+}
+
+.about-left-section {
+  text-align: center;
 }
 
 #about .section-subtitle{
@@ -343,11 +349,11 @@ section, footer {
 
 }
 
-.portfolio-item-footer i {
+.portfolio-item-footer i, .col-md-2 i {
   margin-right: 5px; 
 }
 
-.portfolio-item-footer a {
+.portfolio-item-footer a, .col-md-2 a {
   text-decoration: none;
   color: #cecece;
   background-color: transparent;
@@ -358,7 +364,7 @@ section, footer {
   font-size: 18px;
 }
 
-.portfolio-item-footer a:hover {
+.portfolio-item-footer a:hover, .col-md-2 a:hover {
   text-decoration: none;
   color: #459987;
 }
