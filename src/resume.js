@@ -125,7 +125,7 @@ const resume = {
     {
       "name": "Personality Insights",
       "type": "Android",
-      "skill": ["React", "Node.js", "Firebase"],
+      "skill": ["React Native", "Node.js", "Firebase"],
       "github": "https://github.com/ssvictorlin/PI",
       "intro": "A social media platform to keep users motivated by analyzing their behavior and connecting them with friends.",
       "link": "",
