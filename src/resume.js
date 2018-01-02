@@ -52,7 +52,7 @@ const resume = {
       "highlights": [
         "Implemented a web crawler using Java to fetch data on Microsoft websites",
         "Pioneered the functionality of Microsoft Sharepoint and instructed 21 employees to create team portals",
-        "Designed workflows to manage tasks among multiple teams, leveraging reusable patterns to improve team productivity by 40%",
+        "Designed workflows to manage tasks among multiple teams, improving team productivity by 40%",
         "Developed a Macro in Excel using VBA to automate the generation of report, saving up to 90% of process time"
       ]
     },
@@ -112,7 +112,7 @@ const resume = {
         "level": "70"
       },
       {
-        "name": "firebase",
+        "name": "Firebase",
         "level": "60"
       },
       {
@@ -127,7 +127,7 @@ const resume = {
       "type": "Android",
       "skill": ["React", "Node.js", "Firebase"],
       "github": "https://github.com/ssvictorlin/PI",
-      "intro": "A social platform to provide users’ behavioral insight based on a context-aware application.",
+      "intro": "A social media platform to keep users motivated by analyzing their behavior and connecting them with friends.",
       "link": "",
       "thumbnail": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1950&q=80"
     },
@@ -155,7 +155,7 @@ const resume = {
       "skill": ["React"],
       "github": "https://github.com/eric199wen/eric199wen.github.io",
       "intro": "A static single page personal website.",
-      "link": "",
+      "link": "https://eric199wen.github.io/",
       "thumbnail": "http://i.imgur.com/qK42fUu.jpg"
     }
   ]
