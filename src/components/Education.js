@@ -24,6 +24,13 @@ export default ({ detail }) => {
               {detail[1].location}<span className="bullet">&#8226;</span>
               {`${detail[1].startDate} - ${detail[1].endDate}`}
             </p>
+            {/* <hr /> */}
+            <div className="section-subtitle">{detail[2].institution}</div>
+            <p className="area">
+              {`${detail[2].studyType} in ${detail[2].area}`}<span className="bullet">&#8226;</span>
+              {detail[2].location}<span className="bullet">&#8226;</span>
+              {`${detail[2].startDate} - ${detail[2].endDate}`}
+            </p>
           </div>
         </div>
       </div>

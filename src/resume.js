@@ -16,6 +16,20 @@ const resume = {
   },
   "education": [
     {
+      "institution": "University of California, San Diego",
+      "area": "Computer Science and Engineering",
+      "location": "San Diego, CA",
+      "studyType": "M.S.",
+      "startDate": "Sep 2016",
+      "endDate": "Expected Mar 2018",
+      "gpa": "3.5/4.0",
+      "courses": [
+        "<COURSE_1>",
+        "<COURSE_2>",
+        "<COURSE_3>"
+      ]
+    },
+    {
       "institution": "National Tsing Hua University",
       "area": "Engineering and System Science",
       "location": "Hsinchu, Taiwan",
@@ -30,19 +44,19 @@ const resume = {
       ]
     },
     {
-      "institution": "University of California, San Diego",
-      "area": "Computer Science and Engineering",
-      "location": "San Diego, CA",
-      "studyType": "M.S.",
-      "startDate": "Sep 2016",
-      "endDate": "Expected Mar 2018",
-      "gpa": "3.5/4.0",
+      "institution": "National Tsing Hua University",
+      "area": "Computer Science",
+      "location": "Hsinchu, Taiwan",
+      "studyType": "Minor",
+      "startDate": "Sep 2013",
+      "endDate": "Jun 2015",
+      "gpa": "3.9/4.0",
       "courses": [
         "<COURSE_1>",
         "<COURSE_2>",
         "<COURSE_3>"
       ]
-    }
+    },
   ],
   "work": [
     {
