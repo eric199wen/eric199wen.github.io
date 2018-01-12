@@ -1,4 +1,5 @@
 const resume = {
+  "link": "https://drive.google.com/open?id=1c8hO-mby7a3QpIFNXomtJcRABGemKDBU",
   "about": {
     "name": "Wei-Yuan Wen",
     "picture": "https://s.gravatar.com/avatar/053b5a5bf9f9c4b5595ad98b908d1200?s=120",
@@ -21,7 +22,7 @@ const resume = {
       "studyType": "B.S.",
       "startDate": "Sep 2011",
       "endDate": "Jun 2015",
-      "gpa": "3.92/4.0",
+      "gpa": "3.9/4.0",
       "courses": [
         "<COURSE_1>",
         "<COURSE_2>",
@@ -35,7 +36,7 @@ const resume = {
       "studyType": "M.S.",
       "startDate": "Sep 2016",
       "endDate": "Expected Mar 2018",
-      "gpa": "3.48/4.0",
+      "gpa": "3.5/4.0",
       "courses": [
         "<COURSE_1>",
         "<COURSE_2>",
@@ -46,19 +47,19 @@ const resume = {
   "work": [
     {
       "company": "DBS Bank",
-      "position": "Software Analyst Intern",
+      "position": "Software Engineer Intern",
       "startDate": "Jul 2017",
       "endDate": "Aug 2017",
       "highlights": [
-        "Implemented a web crawler using Java to fetch data on Microsoft websites",
+        "Implemented a web crawler using Java to facilitate the updating process of Microsoft newly released packages",
+        "Developed a Macro in Excel using VBA to automate the generation of report, saving up to 90% of process time",
         "Pioneered the functionality of Microsoft Sharepoint and instructed 21 employees to create team portals",
-        "Designed workflows to manage tasks among multiple teams, improving team productivity by 40%",
-        "Developed a Macro in Excel using VBA to automate the generation of report, saving up to 90% of process time"
+        "Designed workflows to manage tasks among multiple teams, improving team productivity by 40%" 
       ]
     },
     {
       "company": "Lumens Digital Optics Inc.",
-      "position": "Firmware Engineer Intern",
+      "position": "Software Engineer Intern",
       "startDate": "Apr 2015",
       "endDate": "Jul 2015",
       "highlights": [

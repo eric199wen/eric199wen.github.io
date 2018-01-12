@@ -12,7 +12,7 @@ export default class App extends Component {
     console.log("click");
   }
   render() {
-    const { about, education, work, skills, portfolio, contact } = resume;
+    const { link, about, education, work, skills, portfolio, contact } = resume;
 
     return (
       <div>
@@ -41,7 +41,7 @@ export default class App extends Component {
             </div> {/* /.navbar-collapse */}
           </div>{/* /.container-fluid */}
         </nav>
-        <About picture={about.picture} info={about.info} contact={contact} />
+        <About picture={about.picture} info={about.info} contact={contact} googleLink={link}/>
         <Education detail={education}/>
         <hr className="section-devider"/>
         <Work detail={work}/>

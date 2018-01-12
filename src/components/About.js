@@ -17,7 +17,7 @@ export default class About extends Component {
           <div className="content-container">
             <div className="col-md-2 about-left-section">
               <img src={this.props.picture} alt="Wei-Yuan Wen"/>
-              <a href="https://drive.google.com/file/d/1c8hO-mby7a3QpIFNXomtJcRABGemKDBU/view" target="_blank">
+              <a href={this.props.googleLink} target="_blank">
                 <i className="fa fa-file-text" aria-hidden="true"></i>
                 Resume
               </a>
