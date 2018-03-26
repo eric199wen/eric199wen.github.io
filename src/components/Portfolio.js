@@ -18,20 +18,22 @@ export default class Portfolio extends Component {
     return (
       this.props.detail.map(item => {
         return (
-          <div key={item.name} className="col-lg-4 col-md-4 col-sm-6">
+          <div key={item.name} className="col-12 col-lg-4 col-md-6 col-sm-12">
             <div className="portfolio-item">
               {/* <img src={item.thumbnail} alt="" /> */}
               <div className="portfolio-item-data">
                 <h4>{item.name}</h4>
-                <i className="fa fa-tag" aria-hidden="true"></i>
-                <span className="label label-success tag">{item.type}</span>
-                {this.renderSkill(item.skill)}
+                <div className="tag-section">
+                  <i className="fa fa-tag" aria-hidden="true"></i>
+                  <span className="badge badge-success tag">{item.type}</span>
+                  {this.renderSkill(item.skill)}
+                </div>
                 <p>{item.intro}</p>
               </div>
               <div className="portfolio-item-footer">
                 <div className="row">
-                  <div className="footer-item" />
-                  <div className="footer-item portfolio-item-link">
+                  <div className="col" />
+                  <div className="col portfolio-item-link">
                     {item.link.length > 0 ? (
                         <a href={item.link}>
                           <i className="fa fa-link" aria-hidden="true"></i>
@@ -42,7 +44,7 @@ export default class Portfolio extends Component {
                       )
                     }
                   </div>
-                  <div className="footer-item portfolio-item-github">
+                  <div className="col portfolio-item-github">
                     <a href={item.github}>
                       <i className="fa fa-github" aria-hidden="true"></i>
                       GitHub
@@ -61,7 +63,7 @@ export default class Portfolio extends Component {
     return (
       skill.map(skillItem => {
         return (
-          <span key={skillItem} className="label label-info tag">{skillItem}</span>
+          <span key={skillItem} className="badge badge-info tag">{skillItem}</span>
         )
       })
     )
@@ -70,14 +72,12 @@ export default class Portfolio extends Component {
   render() {
     return (
       <section id="portfolio">
-        <div className="row">
-          <div className="content-container">
-            <div id="portfolio-title">
-              <span className="section-subtitle">Portfolio</span>
-            </div>
-            <div className="row">
-              {this.renderPortfolioItem()}
-            </div>
+        <div className="container">
+          <div id="portfolio-title">
+            <span className="section-subtitle">Portfolio</span>
+          </div>
+          <div className="row">
+            {this.renderPortfolioItem()}
           </div>
         </div>
       </section>

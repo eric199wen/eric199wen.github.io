@@ -16,27 +16,34 @@ export default class App extends Component {
 
     return (
       <div>
-        <nav className="navbar navbar-fixed-top navbar-inverse">
-          <div className="container-fluid content-container">
+        <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+          <div className="container">
             {/* Brand and toggle get grouped for better mobile display */}
-            <div className="navbar-header">
-              <button onClick={this.onClick} type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span className="sr-only">Toggle navigation</span>
-                <span className="icon-bar"></span>
-                <span className="icon-bar"></span>
-                <span className="icon-bar"></span>
-              </button>
-            </div>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
 
             {/* Collect the nav links, forms, and other content for toggling */}
-            <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul className="nav navbar-nav">
-                <li className="navbar-item"><a href="#about">About</a></li>
-                <li className="navbar-item"><a href="#education">Education</a></li>
-                <li className="navbar-item"><a href="#work">Work</a></li>
-                <li className="navbar-item"><a href="#skills">Skills</a></li>
-                <li className="navbar-item"><a href="#portfolio">Portfolio</a></li>
-                <li className="navbar-item"><a href="#footer">Contact</a></li>
+            <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
+              <ul className="nav">
+                <li className="nav-item navbar-item">
+                  <a className="nav-link" href="#about">About</a>
+                </li>
+                <li className="nav-item navbar-item">
+                  <a className="nav-link" href="#education">Education</a>
+                </li>
+                <li className="nav-item navbar-item">
+                  <a className="nav-link" href="#work">Work</a>
+                </li>
+                <li className="nav-item navbar-item">
+                  <a className="nav-link" href="#skills">Skills</a>
+                </li>
+                <li className="nav-item navbar-item">
+                  <a className="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li className="nav-item navbar-item">
+                  <a className="nav-link" href="#footer">Contact</a>
+                </li>
               </ul>
             </div> {/* /.navbar-collapse */}
           </div>{/* /.container-fluid */}

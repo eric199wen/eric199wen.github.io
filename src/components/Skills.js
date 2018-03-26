@@ -17,14 +17,14 @@ export default class Skills extends Component {
   render() {
     return (
       <section id="skills">
-        <div className="row">
-          <div className="content-container">
-            <div className="col-md-2 content-title">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 col-sm-12 col-md-2 col-lg-2 content-title">
               <h4>
                 <span className="section-title">Skills</span>
               </h4>
             </div>
-            <div className="col-md-10">
+            <div className="col-12 col-sm-12 col-md-10 col-lg-10">
               <div className="section-subtitle">Programming Languages</div>
               <div className="bars">
                 <ul className="skills">

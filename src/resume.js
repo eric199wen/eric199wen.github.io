@@ -1,16 +1,16 @@
 const resume = {
-  "link": "https://drive.google.com/open?id=1c8hO-mby7a3QpIFNXomtJcRABGemKDBU",
+  "link": "../public/assets/resume.pdf",
   "about": {
     "name": "Wei-Yuan Wen",
-    "picture": "https://s.gravatar.com/avatar/053b5a5bf9f9c4b5595ad98b908d1200?s=120",
+    // "picture": "https://s.gravatar.com/avatar/053b5a5bf9f9c4b5595ad98b908d1200?s=120",
+    "picture": "../public/images/profile.jpg",
     "info": [
       "Graduate student master in computer science at UC San Diego. Expected to graduate in March 2018. Passionate web/mobile developer with several years' exposure in Java and frontend development, eager to become a fullstack developer in the future.",
       "Excellent written and verbal communication skills. Interested in web/mobile and backend development and open to exploring new opportunities to expand skills and develop career.",
-      "Currently looking for Software Engineer position."
     ]
   },
   "contact": {
-    "email": "w5wen@ucsd.edu",
+    "email": "w5wen@eng.ucsd.edu",
     "linkedin": "https://www.linkedin.com/in/wei-yuan-wen/",
     "github": "https://github.com/eric199wen"
   },
@@ -21,7 +21,7 @@ const resume = {
       "location": "San Diego, CA",
       "studyType": "M.S.",
       "startDate": "Sep 2016",
-      "endDate": "Expected Mar 2018",
+      "endDate": "Jun 2018",
       "gpa": "3.5/4.0",
       "courses": [
         "<COURSE_1>",
@@ -86,7 +86,7 @@ const resume = {
     "programmingLanguage": [
       {
         "name": "Java",
-        "level": "80"
+        "level": "90"
       },
       {
         "name": "JavaScript",
@@ -94,7 +94,7 @@ const resume = {
       },
       {
         "name": "Python",
-        "level": "70"
+        "level": "60"
       },
       {
         "name": "C",
@@ -103,11 +103,7 @@ const resume = {
     ],
     "techStack": [
       {
-        "name": "React",
-        "level": "70"
-      },
-      {
-        "name": "React Native",
+        "name": "React / React Native",
         "level": "70"
       },
       {
@@ -115,15 +111,7 @@ const resume = {
         "level": "70"
       },
       {
-        "name": "HTML",
-        "level": "70"
-      },
-      {
-        "name": "CSS",
-        "level": "70"
-      },
-      {
-        "name": "jQuery",
+        "name": "HTML5 / CSS",
         "level": "70"
       },
       {
@@ -132,6 +120,10 @@ const resume = {
       },
       {
         "name": "MySQL",
+        "level": "50"
+      },
+      {
+        "name": "Ruby on Rails",
         "level": "50"
       }
     ]
@@ -153,6 +145,15 @@ const resume = {
       "github": "https://github.com/ntbog/unlistedfood",
       "intro": "A mobile web application for meal recommendation for indecisive people.",
       "link": "https://a10-chownow.herokuapp.com/",
+      "thumbnail": "http://i.imgur.com/qK42fUu.jpg"
+    },
+    {
+      "name": "2048",
+      "type": "Game",
+      "skill": ["Java"],
+      "github": "",
+      "intro": "A desktop version of game 2048, which is just like the one you have played on your mobile phone.",
+      "link": "",
       "thumbnail": "http://i.imgur.com/qK42fUu.jpg"
     },
     {

@@ -13,38 +13,48 @@ export default class About extends Component {
   render() {
     return (
       <section id="about">
-        <div className="row">
-          <div className="content-container">
-            <div className="col-md-2 about-left-section">
-              <img src={this.props.picture} alt="Wei-Yuan Wen"/>
-              <a href={this.props.googleLink} target="_blank">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 col-sm-12 col-md-2 col-lg-2 about-left-section">
+              <img className="img-fluid rounded-circle mx-auto" src={this.props.picture} alt="Wei-Yuan Wen"/>
+              <div className="d-flex justify-content-center">
+                <a href="./assets/Resume.pdf" target="_blank">
+                  <i className="fa fa-file-text" aria-hidden="true"></i>
+                  Resume
+                </a>
+              </div>
+              {/* <a href={this.props.googleLink} target="_blank">
                 <i className="fa fa-file-text" aria-hidden="true"></i>
                 Resume
-              </a>
+              </a> */}
             </div>
-            <div className="col-md-10">
-              <span>
-                <div className="section-subtitle">Wei-Yuan Wen</div>
-              </span>
+            <div className="col-12 col-sm-12 col-md-10 col-lg-10">
+              <div className="section-subtitle">
+                <h2>Wei-Yuan Wen</h2>
+              </div>
               {this.renderInfo()}
-              <div className="section-subtitle">Contact</div>
-              <ul className="nav navbar-nav">
-                <li>
-                  <a href={`mailto:${this.props.contact.email}`}>
-                    <i className="fa fa-envelope fa-2x"></i>
+              <div className="section-subtitle">
+                <h2>Contact</h2>
+              </div>
+              <div className="social-media">
+                <ul className="nav">
+                  <li className="nav-item">
+                    <a href={`mailto:${this.props.contact.email}`}>
+                      <i className="fa fa-envelope fa-2x"></i>
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a href={this.props.contact.linkedin}>
+                      <i className="fa fa-linkedin fa-2x"></i>
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                  <a href={this.props.contact.github}>
+                    <i className="fa fa-github fa-2x"></i>
                   </a>
-                </li>
-                <li>
-                  <a href={this.props.contact.linkedin}>
-                    <i className="fa fa-linkedin fa-2x"></i>
-                  </a>
-                </li>
-                <li>
-                <a href={this.props.contact.github}>
-                  <i className="fa fa-github fa-2x"></i>
-                </a>
-                </li>
-              </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
