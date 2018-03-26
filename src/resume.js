@@ -1,9 +1,8 @@
 const resume = {
-  "link": "../public/assets/resume.pdf",
+  "link": "./assets/resume.pdf",
   "about": {
     "name": "Wei-Yuan Wen",
-    // "picture": "https://s.gravatar.com/avatar/053b5a5bf9f9c4b5595ad98b908d1200?s=120",
-    "picture": "../public/images/profile.jpg",
+    "picture": "./images/profile.jpg",
     "info": [
       "Graduate student master in computer science at UC San Diego. Expected to graduate in March 2018. Passionate web/mobile developer with several years' exposure in Java and frontend development, eager to become a fullstack developer in the future.",
       "Excellent written and verbal communication skills. Interested in web/mobile and backend development and open to exploring new opportunities to expand skills and develop career.",
